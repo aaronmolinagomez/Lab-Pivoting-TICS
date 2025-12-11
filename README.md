@@ -6,6 +6,7 @@ El laboratorio cuenta con 2 máquinas Linux (Debian y Ubuntu) configuradas compl
 Sólo se necesita configurar según las instrucciones en VirtualBox/VMWare.
 
 La primera máquina cuenta como servicios web, ftp, ssh, etc, además de contar con agentes que simulan ser administradores para explotar situaciones como XSS a Cookie Hijacking, LFI to RCE mediante Log Poisoning, etc. 
+
 La segunda máquina (En el siguiente segmento de red, la red interna) cuenta a su vez con un despliegue de redes y contenedores Dockers, en donde se tiene otro escenario de Pivoting entre contenedores, a lo cual es necesario aplicar ténicas de redireccionamiento de tráfico mediante Chisel+Proxychains/Socat, etc. 
 El propósito de este laboratorio es por supuesto meramente educativo
 
